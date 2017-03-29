@@ -1,6 +1,4 @@
-.body {
- 
-}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -38,18 +36,14 @@
   margin-top: 20px;
 }
 
-.panel-default{
+.table-responsive{
    
   margin-top: 150px;
-  margin-left: 100px;
-  margin-right: 100px;
+ 
    
 }
 
-.panel .panel-heading{
-  
-  text-align: center;
-}
+
 /* Featurettes
 ------------------------- */
 
