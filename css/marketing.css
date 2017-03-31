@@ -1,5 +1,26 @@
 
 
+.body{
+  
+  color: aqua;
+   
+}
+
+
+.navbar-brand{
+  
+   padding: 0px;
+
+}
+
+.navbar-brand>img{
+  
+  height: 100%;
+  padding: 7px 15px;
+  width: auto;
+  
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -38,11 +59,36 @@
 
 .table-responsive{
    
-  margin-top: 150px;
- 
-   
+  margin-top: 80px;
+   color: #0fadbc;
+  
 }
 
+.marketing ul{
+   color: #0fadbc;
+  font-size: 20px;
+  
+}
+
+.frase{
+  margin-top: 50px;
+color: #0fadbc;
+  
+    
+}
+
+.container .panel-heading {
+  
+  color: #0fadbc;
+  
+}
+
+.panel-default{
+  
+  margin-top: 80px;
+  text-align: center;
+  font-size: 20px;
+}
 
 /* Featurettes
 ------------------------- */
@@ -82,11 +128,7 @@ body {
 }
 
 
-.frase{
-  
-  color: #0fadbc;
-  
-}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
