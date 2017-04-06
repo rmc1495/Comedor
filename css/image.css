@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.caption {
+        width:100%;
+        bottom: .3rem;
+        position: absolute;
+        background:burlywood;
+        background: -webkit-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: -moz-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: -o-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: linear-gradient(to top, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    }
+
+    .thumbnail {
+        margin:0;
+        padding:0;
+        margin-top: 80px;
+        
+    }
+
+    .caption h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #0fadbc;
+        -webkit-font-smoothing: antialiased;
+    }

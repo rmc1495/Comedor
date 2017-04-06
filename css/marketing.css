@@ -143,6 +143,28 @@ body {
   text-decoration: none;
 }
 
+#wowslider-container1{
+
+  padding-top: 80px;
+}
+
+/* Estilos de los social media icon  */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: .7; 
+    background: #0fadbc;
+}
+
+
+
 
 
 /* RESPONSIVE CSS
