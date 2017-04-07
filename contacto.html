@@ -85,20 +85,17 @@
     </nav>
   </div>
   <!-- fin Fixed navbar -->
-
+    <div class="row">
         <div class="container">
-  <div class="jumbotron">
-                    
-             <h3>Ubicanos</h3>       
-                     <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2779.0552482172693!2d-84.23818189649757!3d9.919160348963887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scr!4v1489594698228" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-          
+              <div class=" col-md-12 ">
+          <div class="google_map text-center">
+            <h1>¿Dónde estamos?</h1>
+      
+  <div id="map"></div>
   </div>
-   
+   </div>
 </div>
-        
+ </div>       
         
          <footer class="footer">
              
@@ -115,7 +112,7 @@
 
         <address class=" text-right">
           <strong>Correo electronico.</strong><br>
-            <a href="mailto:infocomedor@gmail.com">infocomedor@gmail.com</a>
+            <a href="mailto:infocomedor@gmail.com">info@comedorhijosdedios.org</a>
               </address></div>
   </div>
               
@@ -130,8 +127,13 @@
        <!-- Scripts -->    
             
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+        
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script>$(document).ready(function(){$('[data-toggle="tooltip"]').tooltip();});</script>
+          <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDK9KoTh9lCx639gkuKQmMDMXIqvDZNLo&callback=initMap">
+    </script>
+        <script src="js/maps.js"></script>
     </body>
 </html>
+

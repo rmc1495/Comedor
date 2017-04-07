@@ -1,7 +1,4 @@
-.jumbotron{
-  
-  
-}
+ 
 
 body{
   
@@ -44,3 +41,14 @@ body {
   
   margin-top: 25px;
 }
+
+.google_map{
+
+  margin-top: 100px;
+}
+
+#map {
+  margin-top: 30px;
+  height: 400px;
+  width: 100%;
+ }
