@@ -2,7 +2,8 @@
 h1,h2,h3,p,a,div{
 
   font-weight: normal;
-    color: #0fadbc
+  color: #0fadbc;
+  font-family: 'Roboto', sans-serif;
 
 }
 .navbar-brand{
@@ -42,7 +43,7 @@ h1,h2,h3,p,a,div{
 }
 .marketing h2 {
   font-weight: normal;
-    color: #0fadbc
+  color: #fbd116
 
 }
 .marketing .col-lg-4 p {
@@ -84,11 +85,15 @@ h1,h2,h3,p,a,div{
   
 }
 
-.frase{
+
+
+.frase h1{
+  font-size: 50px;
   margin-top: 50px;
-color: #0fadbc;
+  color: #fbd116;
+  font-family: 'Gloria Hallelujah', cursive;
+
   
-    
 }
 
 .container .panel-heading {
@@ -108,8 +113,15 @@ color: #0fadbc;
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
 }
+
 
 /* Thin out the marketing headings */
 .featurette-heading {
@@ -117,7 +129,7 @@ color: #0fadbc;
   line-height: 1;
   letter-spacing: -1px;
 }
-
+ 
 
 
 
@@ -163,7 +175,10 @@ body {
     background: #0fadbc;
 }
 
+.lead{
 
+  font-size: 20px;
+}
 
 
 
