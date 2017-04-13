@@ -80,11 +80,27 @@ h1,h2,h3,p,a,div{
 }
 
 .marketing ul{
-   color: #0fadbc;
+  color: #0fadbc;
   font-size: 20px;
+  list-style-type: none;
   
 }
 
+ .custom-bullet li {
+    display: block;
+}
+
+.custom-bullet li:before
+{
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e013";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #CCCCCC;
+}
 
 
 .frase h1{
@@ -217,7 +233,7 @@ body { padding-top: 80px; }
 }
 
 .lead{
-
+  list-style-type: none;
   font-size: 20px;
 }
 
