@@ -45,10 +45,7 @@
 
 
                 
-        <!-- Start WOWSlider.com HEAD section -->
-        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-        <script type="text/javascript" src="engine1/jquery.js"></script>
-        <!-- End WOWSlider.com HEAD section -->
+       
                 
     </head>
 
@@ -76,8 +73,7 @@
               <ul class="dropdown-menu">
                 <li><a href="myv.html">Conozcanos</a></li>
                 <li><a href="galeria/galeria.html">Galeria</a></li>
-                
-              </ul>
+             </ul>
             </li>
             <li><a href="donar.html">¿Comó donar?</a></li>
             <li><a href="contacto.html">Contacto</a></li>
@@ -94,26 +90,42 @@
   <!-- fin Fixed navbar -->
 
 
-<!-- Start WOWSlider.com BODY section -->
-<div id="wowslider-container1">
-<div class="ws_images"><ul>
-		<li><img src="data1/images/homelessmalebwpoverty.jpg" alt="Caridad" title="Caridad" id="wows1_0"/></li>
-		<li><img src="data1/images/pexelsphoto128899.jpg" alt="Voluntariado" title="Voluntariado" id="wows1_1"/></li>
-		<li><img src="data1/images/pexelsphoto189213.jpg" alt="http://wowslider.com/" title="Bondad" id="wows1_2"/></a></li>
-		<li><img src="data1/images/pexelsphoto276866.jpg" alt="Solidaridad" title="Solidaridad" id="wows1_3"/></li>
-	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title="Caridad"><span><img src="data1/tooltips/homelessmalebwpoverty.jpg" alt="Caridad"/>1</span></a>
-		<a href="#" title="Voluntariado"><span><img src="data1/tooltips/pexelsphoto128899.jpg" alt="Voluntariado"/>2</span></a>
-		<a href="#" title="Bondad"><span><img src="data1/tooltips/pexelsphoto189213.jpg" alt="Bondad"/>3</span></a>
-		<a href="#" title="Solidaridad"><span><img src="data1/tooltips/pexelsphoto276866.jpg" alt="Solidaridad"/>4</span></a>
-	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
-<div class="ws_shadow"></div>
-</div>	
-<script type="text/javascript" src="engine1/wowslider.js"></script>
-<script type="text/javascript" src="engine1/script.js"></script>
-<!-- End WOWSlider.com BODY section -->
+<div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+      
+        <div class="item active">
+          <img src="img/index_1.jpg">
+        </div><!-- End Item -->
+ 
+         <div class="item">
+          <img src="img/index_2.jpg">
+        </div><!-- End Item -->
+        
+        <div class="item">
+          <img src="img/index_3.jpg">
+       </div><!-- End Item -->
+        
+        <div class="item">
+          <img src="img/index_4.jpg">
+           
+        </div><!-- End Item -->
+                
+      </div><!-- End Carousel Inner -->
 
+
+    	<ul class="nav nav-pills nav-justified">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="#">Contribuí<small>Cualquier moneda será bien recibida.</small></a></li>
+          <li data-target="#myCarousel" data-slide-to="1"><a href="#">Comedor<small>Conocé nuestro nuevo local</small></a></li>
+          <li data-target="#myCarousel" data-slide-to="2"><a href="#">Colaborá<small>Ayúdanos a ayudar</small></a></li>
+          <li data-target="#myCarousel" data-slide-to="3"><a href="#">Acercaté<small></small>Escuchá la palabra de Dios</a></li>
+        </ul>
+
+
+    </div><!-- End Carousel -->
+</div>
 
 <div class="container">
 
@@ -254,8 +266,8 @@
  
             
         <!-- Scripts -->    
-
-     
+        <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+        <script src="js/carousel_index.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
        <script>$(document).ready(function(){$('[data-toggle="tooltip"]').tooltip();});</script>
 

@@ -5,6 +5,7 @@ h1,h2,h3,p,a,div{
   color: #0fadbc;
   font-family: 'Roboto', sans-serif;
 
+/* Menu*/
 }
 .navbar-brand{
   
@@ -26,8 +27,7 @@ h1,h2,h3,p,a,div{
   
 }
 
-/* MARKETING CONTENT
--------------------------------------------------- */
+/* MARKETING  -------------------------------------------------- */
 
 /* Pad the edges of the mobile views a bit */
 .marketing {
@@ -35,7 +35,7 @@ h1,h2,h3,p,a,div{
   padding-right: 15px;
 }
 
-/* Center align the text within the three columns below the carousel */
+/* Center align text con 3 columnas debajo del carousel */
 .marketing .col-lg-4 {
   text-align: center;
   margin-bottom: 20px;
@@ -88,12 +88,41 @@ h1,h2,h3,p,a,div{
 
 
 .frase h1{
+  text-decoration: none;
   font-size: 50px;
   margin-top: 50px;
   color: #fbd116;
   font-family: 'Gloria Hallelujah', cursive;
+}
 
-  
+.frase h1:hover{
+
+  color:#0fadbc;
+}
+
+.frase h1{
+
+  transition: color 0.2s
+  linear 0.2s;
+}
+
+.titulo h1{
+  text-decoration: none;
+  font-size: 50px;
+  margin-top: 10px;
+  color: #fbd116;
+  font-family: 'Roboto', cursive;
+}
+
+.titulo h1:hover{
+
+  color:#0fadbc;
+}
+
+.titulo h1{
+
+  transition: color 0.2s
+  linear 0.2s;
 }
 
 .container .panel-heading {
@@ -155,10 +184,22 @@ body {
   text-decoration: none;
 }
 
-#wowslider-container1{
 
-  padding-top: 80px;
+/* Carousel index*/
+
+body { padding-top: 80px; }
+#myCarousel .nav a small {
+    display:block;
 }
+#myCarousel .nav {
+	background:#eee;
+}
+#myCarousel .nav a {
+    border-radius:0px;
+}
+
+
+
 
 /* Estilos de los social media icon  */
 .fa {
@@ -169,7 +210,7 @@ body {
     text-decoration: none;
 }
 
-/* Add a hover effect if you want */
+/* hover*/
 .fa:hover {
     opacity: .7; 
     background: #0fadbc;
@@ -181,6 +222,28 @@ body {
 }
 
 
+
+/* Carousel galeria
+-------------------------------------------------- */
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:100px;
+}
+
+.thumbnail {
+    padding: 0;
+    
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+#slider{
+
+    margin-top:100px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
