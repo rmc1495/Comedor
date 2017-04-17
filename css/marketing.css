@@ -33,7 +33,7 @@ h1,h2,h3,p,a,div,small{
   }
 .nav, .nav li{
 
-  font-size: 30px;
+  font-size:25px;
 }
   .affix {
       top:0;
@@ -60,7 +60,7 @@ h1,h2,h3,p,a,div,small{
     }
 }
 .navbar ul li:hover{
-  font-size: 30.5px;
+  font-size: 25.5px;
   
 }
 
@@ -131,7 +131,7 @@ h1,h2,h3,p,a,div,small{
 
 .frase h1{
   text-decoration: none;
-  font-size: 50px;
+  font-size: 40px;
  
   color: #fbd116;
   font-family: 'Gloria Hallelujah', cursive;
