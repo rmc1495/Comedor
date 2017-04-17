@@ -1,0 +1,22 @@
+#+OptionsIndexing
+#="true"
+Options +Indexes
+IndexOptions +FancyIndexing
+#-OptionsIndexing
+
+#+Unmarked
+ErrorDocument 404 /404.html
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+#-Unmarked
+
+#+PreventHotlinking
+#={"AllowDirect":"false","AllowedHostnames":[""],"RedirectURL":"","Extensions":[".jpg"," .png",".js",".css"]}
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^https?:///.*$ [NC]
+RewriteRule .*\.(.jpg| .png|.js|.css)$ - [R,NC]
+#-PreventHotlinking
+
