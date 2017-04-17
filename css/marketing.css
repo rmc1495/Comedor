@@ -1,12 +1,12 @@
 
-h1,h2,h3,p,a,div{
+h1,h2,h3,p,a,div,small{
 
   font-weight: normal;
   color: #0fadbc;
   font-family: 'Roboto', sans-serif;
-
-/* Menu*/
 }
+/* Menu
+
 .navbar-brand{
   
    padding: 0px;
@@ -27,7 +27,45 @@ h1,h2,h3,p,a,div{
   
 }
 
-/* MARKETING  -------------------------------------------------- */
+*/
+ body {
+      position: relative; 
+  }
+.nav, .nav li{
+
+  font-size: 30px;
+}
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+
+       background-color: #F8F8F8;
+         width: 100%;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+
+@media (min-width: 768px){
+    .navbar-nav{
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float:none;
+    }
+}
+.navbar ul li:hover{
+  font-size: 30.5px;
+  
+}
+
+
+/* MARKETING  Conozcanos-------------------------------------------------- */
 
 /* Pad the edges of the mobile views a bit */
 .marketing {
@@ -62,18 +100,6 @@ h1,h2,h3,p,a,div{
   margin-top: 20px;
 }
 
-.table-responsive{
-   
-  margin-top: 80px;
-   color: #0fadbc;
-   
-}
-.table-responsive h1{
-
-  text-align: center;
-  margin-bottom: 40px;
-
-}
 .marketing .col-md-6 {
  
   margin-top: 100px;
@@ -106,9 +132,10 @@ h1,h2,h3,p,a,div{
 .frase h1{
   text-decoration: none;
   font-size: 50px;
-  margin-top: 50px;
+ 
   color: #fbd116;
   font-family: 'Gloria Hallelujah', cursive;
+  
 }
 
 .frase h1:hover{
@@ -175,49 +202,27 @@ h1,h2,h3,p,a,div{
   letter-spacing: -1px;
 }
  
+ 
 
+ 
+/* Footer */
 
+footer{
+   background-color: #F8F8F8;
 
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 30px;
-  background-color: #F8F8F8;
-  color: black;
-  text-decoration: none;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    text-align: center;
+   
 }
 
-
-/* Carousel index*/
-
-body { padding-top: 80px; }
-#myCarousel .nav a small {
-    display:block;
+footer p {
+    padding: 10.5px;
+    margin: 0px;
+    line-height: 100%;
 }
-#myCarousel .nav {
-	background:#eee;
-}
-#myCarousel .nav a {
-    border-radius:0px;
-}
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
-
-  background-color: #0fadbc;
-}
-
 
 
 /* Estilos de los social media icon  */
