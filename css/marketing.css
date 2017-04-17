@@ -100,9 +100,9 @@ h1,h2,h3,p,a,div,small{
   margin-top: 20px;
 }
 
-.marketing .col-md-6 {
+.dos_columnas {
  
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .marketing ul{
@@ -181,6 +181,11 @@ h1,h2,h3,p,a,div,small{
   font-size: 20px;
 }
 
+
+.table-responsive h1{
+
+  text-align: center;
+}
 /* Featurettes
 ------------------------- */
 
